@@ -1,5 +1,5 @@
-let vehicleData = require('../models/vehicleData.js');
 
-async function getLocation(){
 
-}
+var getSeatOccupancy = function getOccupancy(vehicleId){
+    return vehicleData[vehicleId].seatsAvailable;
+};

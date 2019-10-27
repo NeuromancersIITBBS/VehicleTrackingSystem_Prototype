@@ -37,16 +37,17 @@
         </p>
     </div>
 </div>
+<div id="seatsAvailable" class="bg-info text-white text-center">
+    Seats available
+</div>
 <div class="container">
-    <div id="seatsAvailable" class="bg-info">
-        Seats available
-    </div>
+
     <div id="map"></div>
 
 </div>
 <script>
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUmM35CPTGDklgi_qJxMQT3FVXYeil6iU&callback=initMap"
         async defer></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -61,6 +62,13 @@
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
+
+
+<script src="models/vehicleDataModel.js"></script>
+<script src="models/modelInit.js"></script>
+<script src="controllers/controllerUtils.js"></script>
+<script src = controllers/seatOccupancyController.js></script>
+<script src = "controllers/locationController.js"></script>
 <script src="views/mapView.js"></script>
 </body>
 </html>

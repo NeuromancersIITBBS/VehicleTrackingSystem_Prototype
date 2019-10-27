@@ -1,7 +1,6 @@
-const vehicleLocation = require('../controllers/locationController').getLocation;
+//import {getLocation as vehicleLocation} from '../controllers/locationController.js';
 
-
-async function initMap(vehicleId) {
+function initMap(vehicleId) {
     const options = {
         center: {
             lat: 20.272610,
@@ -10,13 +9,16 @@ async function initMap(vehicleId) {
         zoom: 11
     };
     let map = new google.maps.Map(document.getElementById('map'),options);
-    map.init(function () {
-        setInterval(function () {
-            let markerOptions = vehicleLocation(vehicleId,map);
-            let marker  = new google.maps.Marker(markerOptions)
-        },10000)
-    });
-
-
+    let markerOptions = getLocation(vehicleId,map);
+    let marker  = new google.maps.Marker(markerOptions);
 }
-initMap(1);
+
+function printSeatsAvailable(vehicleId){
+    let seats = getSeatOccupancy(vehicleId);
+    $('#seatsAvailable').append(seats);
+}
+let queryParam = getQueryParams();
+printSeatsAvailable(queryParam);
+initMap(queryParam);
+
+
