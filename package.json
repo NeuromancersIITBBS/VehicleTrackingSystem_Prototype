@@ -2,7 +2,7 @@
   "name": "vehicletrackingsystem",
   "version": "1.0.0",
   "description": "Used to track vehicles and report seat occupancy",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
