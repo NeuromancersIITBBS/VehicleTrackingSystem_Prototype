@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c070f703-f4f7-4084-b53d-c1e5cf3eb0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/seatOccupancyController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/vehicleData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicleInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/images/BOV1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/images/BOV2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/mapView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/locationController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/locationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/locationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicleInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicleInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/mapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/mapView.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572028290316</updated>
-      <workItem from="1572028292969" duration="21228000" />
+      <workItem from="1572028292969" duration="27752000" />
     </task>
     <servers />
   </component>
