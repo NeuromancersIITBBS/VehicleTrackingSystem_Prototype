@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c070f703-f4f7-4084-b53d-c1e5cf3eb0c0" name="Default Changelist" comment="" />
+    <list default="true" id="c070f703-f4f7-4084-b53d-c1e5cf3eb0c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/modelInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/modelInit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicleInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicleInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/mapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/mapView.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572028290316</updated>
       <workItem from="1572028292969" duration="38087000" />
-      <workItem from="1572235611255" duration="3757000" />
+      <workItem from="1572235611255" duration="4233000" />
     </task>
     <servers />
   </component>
