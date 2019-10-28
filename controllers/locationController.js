@@ -2,6 +2,10 @@
 
 var getLocation = function getLocation(vehicleId,map) {
     let vehicleList = vehicleData;
+    console.log(vehicleList);
+    console.log(typeof vehicleId);
+    console.log(vehicleList[vehicleId]);
+    console.log(vehicleList[vehicleId].longitude);
     let longitude = vehicleList[vehicleId].longitude;
     console.log(longitude);
     let latitude = vehicleList[vehicleId].latitude;
