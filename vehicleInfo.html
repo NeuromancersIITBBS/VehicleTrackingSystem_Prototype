@@ -28,18 +28,19 @@
 <div class=" container-fluid bg-dark text-center" id="JumboHeading">
     <div class="container text-white">
         <a href="index.html" style=" color: #ffffff">
-            <div class="display-5">
-                Welcome to Vehicle Tracking System
+            <div class="display-4">
+                Vehicle Tracking System
             </div>
         </a>
-        <p class="lead">
-            We tell you the location of vehicle and seats available in it
-        </p>
     </div>
 </div>
-<div id="seatsAvailable" class="bg-info text-white text-center">
+<div id="loadingData" class="bg-warning text-white text-center display-4">
+    waiting for data
+</div>
+<div id="seatsAvailable" class="bg-info text-white text-center display-5">
     Seats available
 </div>
+
 <div class="container">
 
     <div id="map"></div>
@@ -47,7 +48,9 @@
 </div>
 <script>
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUmM35CPTGDklgi_qJxMQT3FVXYeil6iU&callback=initMap"
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"-->
+<!--        async defer></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"
         async defer></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
