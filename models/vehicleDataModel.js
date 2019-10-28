@@ -1,44 +1,46 @@
 let url = '';
-var vehicleData; /*= [
-    {
-        "latitude": "20.272610",
-        "longitude": "85.833120",
-        "seatsAvailable": "5"
-    },
-    {
-        "latitude": "20.272610",
-        "longitude": "85.833120",
-        "seatsAvailable": "3"
-    },
-    {
-        "latitude": "20.272610",
-        "longitude": "85.833120",
-        "seatsAvailable": "2"
-    }
-];*/
+var vehicleData;
 var getVehicleData =  async function getVehicleData(){
     new Promise((resolve,reject)=>{
         setInterval(function () {
             vehicleData = [
                 {
-                    "latitude": "20.272610",
-                    "longitude": "85.833120",
+                    "latitude": "20.46497",
+                    "longitude": "85.87927",
                     "seatsAvailable": "5"
+                },
+                {
+                    "latitude": "19.8134",
+                    "longitude": "85.8315",
+                    "seatsAvailable": "2"
                 },
                 {
                     "latitude": "123.123.123",
                     "longitude": "123.231.232",
-                    "seatsAvailable": "5"
-                },
-                {
-                    "latitude": "123.123.123",
-                    "longitude": "123.231.232",
-                    "seatsAvailable": "5"
+                    "seatsAvailable": "3"
                 }
             ];
-        },10000);
+        },3000);
         resolve(vehicleData) ;
     });
 };
 
-//module.export = vehicleData;
+/*
+
+vehicleData = [
+    {
+        "latitude": "20.46497",
+        "longitude": "85.87927",
+        "seatsAvailable": "5"
+    },
+    {
+        "latitude": "19.8134",
+        "longitude": "85.8315",
+        "seatsAvailable": "2"
+    },
+    {
+        "latitude": "123.123.123",
+        "longitude": "123.231.232",
+        "seatsAvailable": "3"
+    }
+];*/
