@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +14,8 @@
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 70%;
+            height: 400px;  /* The height is 400 pixels */
+            width: 100%;  /* The width is the width of the web page */
         }
 
         /* Optional: Makes the sample page fill the window. */
@@ -37,7 +39,7 @@
 <div id="loadingData" class="bg-warning text-white text-center display-4">
     waiting for data
 </div>
-<div id="seatsAvailable" class="bg-info text-white text-center display-5">
+<div id="seatsAvailable" class="bg-info text-white text-center display-5" style="display: none">
     Seats available
 </div>
 
@@ -48,9 +50,10 @@
 </div>
 <script>
 </script>
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"-->
-<!--        async defer></script>-->
-<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"
+
+<script src="views/mapInit.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
         async defer></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -2,12 +2,11 @@ $(document).ready(async function () {
    await getVehicleData() ;
    let queryParam = await getQueryParams();
    setInterval(function () {
-      if(vehicleData!==undefined){
+      if(vehicleData!==undefined && map!==undefined){
          $('#loadingData').hide();
          $('#seatsAvailable').show();
          printSeatsAvailable(queryParam);
-         console.log("map init is called");
-         initMap(queryParam);
+         refreshMarker(queryParam);
       }else{
          $('#loadingData').show();
          $('#seatsAvailable').hide();
