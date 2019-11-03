@@ -20,9 +20,9 @@ of IIT Bhubaneswar inside and outside of the campus.
 
 ## Contributors
 
+- Rishabh Gupta
 - Ujjal Das
 - Tulsi Prasad Jaiswal
-- Rishabh Gupta
 - Anand Prakash
 
 
