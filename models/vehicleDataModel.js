@@ -1,4 +1,4 @@
-let url = '';
+let url = 'http://127.0.0.1:5000/';
 var vehicleData;
 var getVehicleData =  async function getVehicleData(){
     new Promise((resolve,reject)=>{
