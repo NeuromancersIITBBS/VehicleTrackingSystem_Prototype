@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c070f703-f4f7-4084-b53d-c1e5cf3eb0c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/VehicleTrackingSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VehicleTrackingSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vehicleDataModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/vehicleDataModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicleInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicleInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/mapInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/mapInit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VehicleTrackingSystem/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -77,11 +75,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.server" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
